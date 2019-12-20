@@ -10,6 +10,11 @@ a, a:visited {
   color: #880000;
 }
 
+div#content {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 div#header {
   border-bottom: 1px solid black;
   margin-bottom: 20px;
