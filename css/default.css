@@ -1,3 +1,10 @@
+:root {
+  --main-bg-color: rgb(230, 230, 230);
+  --header-bg-color: rgb(255,255,200);
+  --border-dark-color: rgb(127,127,110);
+  --border-light-color: rgb(255,255,240);
+}
+
 body {
   color: black;
   font-size: 14px;
@@ -5,11 +12,11 @@ body {
   font-family: 'Helvetica Neue', sans-serif;
   margin: 0px auto 0px auto;
   width: 516px;
-  background-color: rgb(240, 128, 220);
+  background: var(--main-bg-color);
 }
 
 a, a:visited {
-  color: rgb(64,120,110);
+  color: var(--border-dark-color);
 }
 
 div#content {
@@ -18,9 +25,11 @@ div#content {
 }
 
 div#header {
-  background-color: rgb(128,240,220);
-  border-bottom: 2px solid rgb(64,120,110);
-  border-right: 2px solid rgb(64,120,110);
+  background-color: var(--header-bg-color);
+  border-top: 2px solid var(--border-light-color);
+  border-bottom: 2px solid var(--border-dark-color);
+  border-left: 2px solid var(--border-light-color);
+  border-right: 2px solid var(--border-dark-color);
   margin-bottom: 20px;
   padding: 12px 00px 40px 0px;
 }
@@ -38,9 +47,11 @@ h2 {
   font-size: 16px;
   font-weight: 300;
   font-family: 'Helvetica-Neue', sans-serif;
-  background-color: rgb(128, 240, 220);
-  border-bottom: 2px solid rgb(64,120,110);
-  border-right: 2px solid rgb(64,120,110);
+  background-color: var(--header-bg-color);
+  border-top: 2px solid var(--border-light-color);
+  border-bottom: 2px solid var(--border-dark-color);
+  border-left: 2px solid var(--border-light-color);
+  border-right: 2px solid var(--border-dark-color);
 }
 
 ul {
