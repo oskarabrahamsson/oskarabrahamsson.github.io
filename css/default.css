@@ -1,6 +1,6 @@
 :root {
-  --main-bg-color: rgb(230, 230, 230);
-  --header-bg-color: rgb(255,255,200);
+  --main-bg-color: white;
+  --header-bg-color: white;
   --border-dark-color: rgb(127,127,110);
   --border-light-color: rgb(255,255,240);
 }
@@ -9,7 +9,7 @@ body {
   color: black;
   font-size: 14px;
   font-weight: 300;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Lucida Console', monospace;
   margin: 0px auto 0px auto;
   width: 516px;
   background: var(--main-bg-color);
@@ -28,30 +28,26 @@ div#header {
   background-color: var(--header-bg-color);
   border-top: 2px solid var(--border-light-color);
   border-bottom: 2px solid var(--border-dark-color);
-  border-left: 2px solid var(--border-light-color);
-  border-right: 2px solid var(--border-dark-color);
   margin-bottom: 20px;
-  padding: 12px 00px 40px 0px;
+  padding: 0px 0px 20px 0px;
 }
 
 div#logo a {
   color: black;
   float: left;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 200;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Lucida Console', monospace;
   text-decoration: none;
 }
 
 h2 {
   font-size: 16px;
   font-weight: 300;
-  font-family: 'Helvetica-Neue', sans-serif;
+  font-family: 'Lucida Console', monospace;
   background-color: var(--header-bg-color);
   border-top: 2px solid var(--border-light-color);
   border-bottom: 2px solid var(--border-dark-color);
-  border-left: 2px solid var(--border-light-color);
-  border-right: 2px solid var(--border-dark-color);
 }
 
 ul {
